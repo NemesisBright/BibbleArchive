@@ -1,10 +1,12 @@
 @font-face {
     font-family: pixel;
     src: url(/Users/mishal/Documents/GitHub/BibbleArchive/Assets/rainyhearts.ttf);
+    src: url(https://www.dafont.com/rainyhearts.font);
 }
 @font-face {
     font-family: comp;
     src: url(/Users/mishal/Documents/GitHub/BibbleArchive/Assets/Comp_font.ttf);
+    src: url(https://www.dafont.com/vcr-osd-mono.font);
 }
 
 /* Bodies */
