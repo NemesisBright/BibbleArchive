@@ -1,10 +1,21 @@
 @font-face {
+<<<<<<< HEAD
+    font-family: comp;
+    src: url(Assets/Comp_font.ttf);
+}
+@font-face {
+    font-family: pixel;
+    src: url(Assets/rainyhearts.ttf);
+=======
     font-family: pixel;
     src: url(/Users/mishal/Documents/GitHub/BibbleArchive/Assets/rainyhearts.ttf);
+    src: url(https://www.dafont.com/rainyhearts.font);
 }
 @font-face {
     font-family: comp;
     src: url(/Users/mishal/Documents/GitHub/BibbleArchive/Assets/Comp_font.ttf);
+    src: url(https://www.dafont.com/vcr-osd-mono.font);
+>>>>>>> f48c1f202e84f07d69f7d3d65a52c7f8e3921da3
 }
 
 /* Bodies */
@@ -13,10 +24,12 @@ body{
     background-color: black;
 }
 img{
-    float: left;
+    display: block;
     height: auto;
-    width: 100px;
-    margin: 10px;
+    width: 200px;
+    height: auto;
+    margin: auto auto;
+    object-fit: contain;
 }
 
 /* Classes */
@@ -30,9 +43,8 @@ img{
 /* Div Bodies */
 #arch{
     margin: 20px;
-    padding: 10px;
+    padding: 30px;
     width: auto;
-    height: auto;
     border-radius: 5px;
     border: 2px solid rgba(255, 255, 255, 0.678);
 }
@@ -45,9 +57,9 @@ h1{
     text-align: center;
 }
 h2{
-    color: rgba(255, 255, 255, 0.678);
+    color: rgba(204, 204, 204, 0.678);
     font-family: comp;
-    font-size: large;
+    font-size: 40px;
     text-align: center; 
 }
 p{
